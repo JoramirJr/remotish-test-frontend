@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+.background {
+
+    height: 100vh;
+    background-color: #ed8074;
+    display: grid;
+    place-items: center;
+
+}
+
+
+.formDiv {
+
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    place-items: self-start;
+    height: 40vh;
+    max-width: 30em;
+    background-color: #ffffff;
+    border-radius: 1.5em;
+    filter: drop-shadow(0.1em 0.1em 0.5em rgba(0, 0, 0, 0.8));
+
+}
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: -webkit-fill-available;
+    padding: 2.5em;
+
+}
+
+.inputField {
+
+    padding: 1em;
+    border: 1px lightgrey solid;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    color: rgb(167, 167, 167);
+    width: 80%;
+    outline: none;
+    font-size: 1.2em;
+
+
+}
+
+
+.submitButton {
+
+    margin-top: 2em;
+    padding: 1em;
+    width: 80%;
+    border-radius: 0.5em;
+    background-color: #ed8074;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    display: grid;
+    place-items: center;
+
+}
+
+.submitButton:hover {
+
+    background-color: darkgrey;
+
+}
+
+.inputFieldError {
+
+    padding: 1.5em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    color: darkgray;
+    width: 80%;
+    outline: none;
+    border: 2px solid red;
+
+}
+
+.ActionLink {
+
+    position: relative;
+    bottom: 5em;
+    border: 1px solid #000000;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    width: 20em;
+    text-align: center;
+    font-weight: bolder;
+    color: #ed8074;
+    font-size: 1.3em;
+    font-family: 'Quicksand', sans-serif;
+
+
+
+}
+
+.ActionLink:hover {
+
+    background-color: #ed8074;
+    color: white;
+    border-color: white;
+
+}
+
+.formDiv .submitButton .ActionLink {
+
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+@media (max-width: 450px)
+{
+    .inputField {
+
+        padding: 0.5em;
+        border: 1px lightgrey solid;
+        border-radius: 0.5em;
+        color: rgb(167, 167, 167);
+        width: 80%;
+        outline: none;
+        font-size: 1.2em;
+    
+    
+    } 
+
+    .submitButton {
+
+        margin-top: 0.5em;
+        padding: 0.5em;
+        width: 80%;
+        border-radius: 0.5em;
+        background-color: #ed8074;
+        color: white;
+        font-size: 1em;
+        font-weight: bolder;
+        letter-spacing: 0.2em;
+    
+    }
+
+    .formDiv {
+
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        place-items: self-start;
+        height: fit-content;
+        max-width: 30em;
+        background-color: #ffffff;
+        border-radius: 1.5em;
+        filter: drop-shadow(0.1em 0.1em 0.5em rgba(0, 0, 0, 0.8));
+    
+    }
+
+    .ActionLink {
+
+        position: relative;
+        bottom: 5em;
+        border: 1px solid #000000;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-radius: 0.5em;
+        padding: 0.5em;
+        width: 10em;
+        text-align: center;
+        font-weight: bolder;
+        color: #ed8074;
+        font-size: 1.3em;
+        font-family: 'Quicksand', sans-serif;
+    
+    
+    
+    }
+
+}
